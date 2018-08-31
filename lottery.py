@@ -17,6 +17,16 @@ def get_participants() -> [(str, float)]:
         ret.append((card, float(tickets)))
     return ret
 
+def get_prize(i):
+    if i == 1:
+        return 'IPHONE X'
+    elif i == 2:
+        return 'APPLE WATCH 3'
+    elif i == 3:
+        return 'APPLE AIR PODS'
+    else:
+        return 'hookah'
+
 class Participant(object):
     def __init__(self, card: str, tickets: float):
         self.card = card
@@ -46,7 +56,7 @@ def main():
 
     assert len(winners) == WINNERS_NUM
     for i, p in enumerate(winners):
-        print(p.card, p.tickets)
+        print(str(i+1)+') card '+str(p.card)+' - '+str(int(p.tickets))+' tickets - '+get_prize(i+1))
 
 if __name__ == '__main__':
     main()
