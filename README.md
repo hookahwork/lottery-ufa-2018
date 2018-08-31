@@ -12,7 +12,9 @@
 
 Для примера, первый блок за 28 августа по уфимскому времени имеет хеш 0000000000000000001ca03d9e1dd30d2cf49e44ba1569c8819e56cef88b67d4, что можно наблюдать по ссылке https://www.blockchain.com/btc/blocks/1535363997281 (2018-08-27 19:01:07 GMT+0 = 2018-08-28 00:01:07 GMT+5)
 
+Update: для розыгрыша используем хеш блока 539378 - 0000000000000000000de4be69467a4dad4533d2d9c963aa8a7c98cfb4bfa9b4
+
 ```python
 # Use bitcoin hash at height 538770.
-python3 lottery.py 0000000000000000001ca03d9e1dd30d2cf49e44ba1569c8819e56cef88b67d4
+python3.6 lottery.py 0000000000000000000de4be69467a4dad4533d2d9c963aa8a7c98cfb4bfa9b4
 ```
