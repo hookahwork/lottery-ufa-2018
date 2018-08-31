@@ -15,6 +15,6 @@
 Update: для розыгрыша используем хеш блока 539378 - 0000000000000000000de4be69467a4dad4533d2d9c963aa8a7c98cfb4bfa9b4
 
 ```python
-# Use bitcoin hash at height 538770.
+# Use bitcoin hash at height 539378.
 python3.6 lottery.py 0000000000000000000de4be69467a4dad4533d2d9c963aa8a7c98cfb4bfa9b4
 ```
